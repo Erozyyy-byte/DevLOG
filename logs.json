@@ -1,0 +1,38 @@
+[
+  {
+    "project": "Real-time Search Filter",
+    "difficulty": "3",
+    "content": "Added a search bar that uses `oninput`. \nIt filters cards using `.toLowerCase()` and `.includes()`. \nNo page refresh needed—it's **blazing fast**! ⚡",
+    "id": "1774986236623"
+  },
+  {
+    "project": "Express Error Catching",
+    "difficulty": "4",
+    "content": "Fixed the `Cannot GET /` error today! \nIt was a **directory path** issue. I learned that `path.join(__dirname, 'public')` is the safest way to tell Node exactly where my files are.",
+    "id": "1774986184705"
+  },
+  {
+    "project": "CSS Grid Layout",
+    "difficulty": "3",
+    "content": "Implemented `display: grid` with `repeat(auto-fill, minmax(320px, 1fr))`. \nThe app is now **fully responsive**! 📱",
+    "id": "1774986060163"
+  },
+  {
+    "project": "Node.js FS module",
+    "difficulty": "2",
+    "content": "Used `fs.readFileSync` to pull data from `logs.json`.\nNext time, I'll try `fs.promises` for cleaner **async/await** code.",
+    "id": "1774985995265"
+  },
+  {
+    "project": "Glassmorphism UI",
+    "difficulty": "4",
+    "content": "Added `backdrop-filter: blur(12px)` to my cards. \nIt gives that **frosted glass** look that Apple uses. \nLooks great over the animated gradient!",
+    "id": "1774985897284"
+  },
+  {
+    "project": "Express Server Fix",
+    "difficulty": "3",
+    "content": "I fixed the **Cannot GET /** error by moving my files into a `public` folder. \nNow I use `app.use(express.static('public'))` to serve my HTML!",
+    "id": "1774983981302"
+  }
+]
