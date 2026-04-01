@@ -34,5 +34,11 @@
     "difficulty": "3",
     "content": "I fixed the **Cannot GET /** error by moving my files into a `public` folder. \nNow I use `app.use(express.static('public'))` to serve my HTML!",
     "id": "1774983981302"
-  }
+  },
+  {
+    "project": "Final PROJECT Deployment",
+    "difficulty": "5",
+    "content": "Successfully deployed the **DevLog Pro** dashboard to Render. Learned how to manage a Node.js backend, handle REST API routes, and troubleshoot ephemeral storage issues. The site is now live and fully functional!",
+    "id": "1774986239999"
+}
 ]
